@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login_screen_two</string>
+    <string name="namme">Gratify</string>
+    <string name="user">&#xf2c0;</string>
+    <string name="paswd">&#xf13e;</string>
+    <string name="submit">Sign in</string>
+    <string name="new_user">Are You New User</string>
+    <string name="usr_name">User name</string>
+    <string name="passwd">Password</string>
+    <string name="forgt">Forget Password</string>
+    <string name="no_account">Dont Have Acccount</string>
+</resources>
