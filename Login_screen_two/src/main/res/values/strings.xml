@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Login_one</string>
+    <string name="usr">&#xf2c0;</string>
+    <string name="pwd">&#xf13e;</string>
+    <string name="logo">&#xf20e;</string>
+</resources>
