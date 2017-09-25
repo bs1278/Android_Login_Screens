@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.balarajum.login.MainActivity">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:textSize="35dp"
+        android:textColor="@color/my_Color"
+        android:text="@string/logo"
+        android:layout_marginStart="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/g_btn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb_btn"
+        android:text="@string/google"
+        android:background="@drawable/my_gmbtn"
+        android:textColor="@color/my_gm_color"
+        android:layout_marginEnd="84dp"
+        android:layout_alignBaseline="@+id/g_btn"
+        android:layout_alignBottom="@+id/g_btn"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linere"
+        android:orientation="vertical"
+        android:background="@drawable/login_frame"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:textSize="15dp"
+            android:textColorHint="#bbc"
+            android:hint="@string/email"
+            />
+        <View xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="0.7dp"
+            android:background="#bbc" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textColorHint="#bbc"
+            android:textSize="15dp"
+            android:hint="@string/user"
+            />
+        <View xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="0.7dp"
+            android:background="#bbc" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:textSize="15dp"
+                android:textColorHint="#bbc"
+                android:hint="@string/pwd"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/show"
+                android:layout_gravity="center"
+                android:textColor="@color/forget_color"
+                android:layout_marginLeft="150dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign"
+        android:text="@string/have"
+        android:textColor="@color/my_Color"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/submit_btn"
+        android:layout_alignStart="@+id/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cap_text"
+        android:text="@string/cap_text"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/logo"
+        android:layout_alignStart="@+id/logo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/g_btn"
+        android:text="@string/fb"
+        android:background="@drawable/my_fbbtn"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginEnd="13dp"
+        android:layout_above="@+id/linere"
+        android:layout_toStartOf="@+id/fb_btn"
+        android:layout_marginBottom="21dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_btn"
+        android:text="@string/register"
+        android:background="@color/my_Color"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/linere"
+        android:layout_alignStart="@+id/linere" />
+</RelativeLayout>
