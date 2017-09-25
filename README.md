@@ -6,6 +6,13 @@ Login screen one
 
 
 Login screen new
+
+
+
+
+
+
+
 ![](https://github.com/balaraju1278/Login_Screens/blob/master/Login_Screen_new/signup.PNG)
 ![](https://github.com/balaraju1278/Login_Screens/blob/master/Login_Screen_new/login_preview.PNG)
 
