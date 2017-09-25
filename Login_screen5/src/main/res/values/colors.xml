@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_Color"></color>
+    <color name="colorPrimary">#FF8C00</color>
+    <color name="colorpirmary_dark">#2278d4</color>
+    <color name="colorPrimaryText">#303F9F</color>
+    <color name="my_Color">#FF8C00</color>
+    <color name="my_fb_Color">#93c6fd</color>
+    <color name="my_gm_color">#f98da5</color>
+    <color name="forget_color">#40E0D0</color>
+
+</resources>
