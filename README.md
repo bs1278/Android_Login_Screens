@@ -17,7 +17,7 @@ Login screen new
 ![](https://github.com/balaraju1278/Login_Screens/blob/master/Login_Screen_new/signup.PNG)
 ![](https://github.com/balaraju1278/Login_Screens/blob/master/Login_Screen_new/login_preview.PNG)
 
-Login screen five
+Login screen five                              Login screen seven
 
 
 ![](https://github.com/balaraju1278/Login_Screens/blob/master/Login_screen5/login_screen.PNG)
