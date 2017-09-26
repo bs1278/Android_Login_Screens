@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="logo">Gratify</string>
+    <string name="cap_text">yous awesome place</string>
+    <string name="login">Login</string>
+    <string name="singup">Don t have account? Sign in</string>
+    <string name="forget">forget password</string>
+    <string name="user">Username</string>
+    <string name="pwd">Password</string>
+    <string name="google">G</string>
+    <string name="fb">F</string>
+    <string name="email">Email</string>
+    <string name="show">show</string>
+    <string name="register">Register</string>
+    <string name="have">Already Have account login</string>
+    <string name="or">signup with</string>
+    <string name="right">All rights reserved</string>
+</resources>
