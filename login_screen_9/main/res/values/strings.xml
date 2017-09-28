@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gratify</string>
+    <string name="user"></string>
+    <string name="pwd"></string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="no_act">signup with</string>
+    <string name="signup">Singup here</string>
+    <string name="create">Dont have account</string>
+    <string name="fb">Facebook</string>
+    <string name="sign">Signup</string>
+    <string name="gm">Google</string>
+</resources>
