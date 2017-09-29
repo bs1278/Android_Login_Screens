@@ -37,6 +37,9 @@ Login screen five   And                            Login screen seven
 
 ![](https://github.com/balaraju1278/Android_Login_Screens/blob/master/login_screen_9/new_screen_9.PNG)
 
+![](https://github.com/balaraju1278/Android_Login_Screens/blob/master/Login_screen_two/src/Screenshot_20170929_223436.png)
+
+
 
 
 
